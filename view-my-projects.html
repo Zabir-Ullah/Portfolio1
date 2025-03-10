@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects | Zabirullah</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #f1f1f1;
+        text-align: center;
+      }
+      header {
+        background: linear-gradient(to right, #0d47a1, #1976d2);
+        color: white;
+        padding: 30px;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        background: #1e1e1e;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+        border-radius: 10px;
+        margin-top: 30px;
+        transition: 0.3s;
+      }
+      .container:hover {
+        box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+      }
+      .slide-container {
+        position: relative;
+        max-width: 100%;
+      }
+      .slide {
+        display: none;
+        padding: 20px;
+        text-align: left;
+      }
+      .slide.active {
+        display: block;
+        animation: fadeIn 0.6s ease-in-out;
+      }
+      h2 {
+        color: #00c6ff;
+        border-bottom: 2px solid #00c6ff;
+        padding-bottom: 5px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .nav-buttons {
+        margin-top: 20px;
+      }
+      .nav-buttons button {
+        background: #00c6ff;
+        color: #121212;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.3s;
+        box-shadow: 0 0 10px rgba(0, 198, 255, 0.5);
+      }
+      .nav-buttons button:hover {
+        background: #0086b3;
+        box-shadow: 0 0 15px rgba(0, 198, 255, 0.8);
+      }
+      .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background: #ff6600;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+      .back-button:hover {
+        background: #cc5200;
+        box-shadow: 0 0 15px rgba(255, 102, 0, 0.7);
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>My Projects</header>
+
+    <div class="container">
+      <div class="slide-container">
+        <div class="slide active" id="project1">
+          <h2>🚀 Asian Exports - Manufacturing & Market Expansion</h2>
+          <p><strong>Role:</strong> Head of Manufacturing (2021 - 2024)</p>
+          <p>
+            <strong>Overview:</strong> Managed high-pressure operations,
+            expanded business to international markets, and optimized production
+            efficiency.
+          </p>
+          <p><strong>Key Achievements:</strong></p>
+          <ul>
+            <li>Led a large manufacturing team and streamlined production.</li>
+            <li>
+              Expanded the company’s reach to international e-commerce markets.
+            </li>
+            <li>Improved logistics, efficiency, and profitability.</li>
+          </ul>
+        </div>
+
+        <div class="slide" id="project2">
+          <h2>💡 ₹5 Lakh Startup - Scaled to ₹80 Lakh Revenue</h2>
+          <p><strong>Role:</strong> Founder & CEO (2023 - 2024)</p>
+          <p>
+            <strong>Overview:</strong> Started a business with ₹5 Lakh and
+            scaled it to ₹80 Lakh revenue in just a year.
+          </p>
+          <p><strong>Key Achievements:</strong></p>
+          <ul>
+            <li>
+              Developed a strong business strategy and digital marketing
+              approach.
+            </li>
+            <li>
+              Optimized customer acquisition costs and maximized profit margins.
+            </li>
+            <li>Bootstrapped the startup without external funding.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slide" id="project3">
+        <h2>✨ Silver Leafing Project | Jaipur City Palace (2018)</h2>
+        <p><strong>Role:</strong> Operations Head</p>
+        <p>
+          <strong>Overview:</strong> Led a specialized team to complete silver leafing 
+          on a palki for the Teej festival at Jaipur City Palace.
+        </p>
+        <p><strong>Key Achievements:</strong></p>
+        <ul>
+          <li>
+            Completed the intricate work in just one day
+          </li>
+          <li>
+            Managed artisans, materials, and execution, ensuring cultural authenticity 
+            and high-quality craftsmanship.
+          </li>
+          <li> Demonstrating efficiency, precision, and leadership.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide" id="project4">
+      <h2>🏠 Home Construction & Renovation Projects</h2>
+      <p><strong>Role:</strong> Designer & Contractor</p>
+      <p>
+        <strong>Overview:</strong>Successfully designed and managed the construction 
+        of two houses and led the renovation of another home.
+      </p>
+      <p><strong>Key Achievements:</strong></p>
+      <ul>
+        <li>
+          Created architectural layouts, selected materials, 
+          and coordinated labor teams to ensure high-quality results.
+        </li>
+        <li>
+          Balanced aesthetic design with functionality and budget constraints.
+        </li>
+        <li>Ensuring projects met client expectations and industry standards.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="slide" id="project5">
+    <h2>🍲 IVB No-Fuel Cooking Competition (2024)</h2>
+    <p><strong>Role:</strong> Chef</p>
+    <p>
+      <strong>Overview:</strong>Lead my team to a second-place finish in the 
+      No-Fuel Cooking Competition at IVB.
+    </p>
+      <p><strong>Key Achievements:</strong></p>
+    <ul>
+      <li>
+        Designed and prepared a unique, innovative dish, which was instrumental 
+        in securing the team’s high rank.
+      </li>
+      <li>
+        Balanced aesthetic design with functionality and budget constraints.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="slide" id="project6">
+  <h2>🎊 School Annual Function Leadership</h2>
+  <p><strong>Role:</strong> Multiple Roles</p>
+  <p>
+    <strong>Overview:</strong>Led multiple cultural teams, including:
+  </p>
+    <p><strong>Key Achievements:</strong></p>
+  <ul>
+    <li>
+      Singing Team – Organized rehearsals and managed stage performances.</li>
+    <li>
+      Qawwali Team – Selected themes and coordinated group presentations.
+    </li>
+    <li> Comedy Drama – Scripted, directed, and performed a successful theatrical play.
+    </li>
+    <li> Fashion Show – Managed costume design, choreography, and stage presence.</li>
+  </ul>
+</div>
+</div>
+
+      <div class="nav-buttons">
+        <button onclick="prevSlide()">⬅ Previous</button>
+        <button onclick="nextSlide()">Next ➡</button>
+      </div>
+
+      <a href="index.html" class="back-button">🔙 Back to Portfolio</a>
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".slide");
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.remove("active");
+          if (i === index) {
+            slide.classList.add("active");
+          }
+        });
+      }
+
+      function prevSlide() {
+        currentSlide =
+          currentSlide === 0 ? slides.length - 1 : currentSlide - 1;
+        showSlide(currentSlide);
+      }
+
+      function nextSlide() {
+        currentSlide =
+          currentSlide === slides.length - 1 ? 0 : currentSlide + 1;
+        showSlide(currentSlide);
+      }
+    </script>
+  </body>
+</html>
